@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_home, R.id.nav_about), drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
-        navView.setItemIconTintList(null)
+        navView.itemIconTintList = null
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
